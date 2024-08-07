@@ -1,5 +1,5 @@
 import streamlit as st
-from langchain_openai import OpenAI
+#from langchain_openai import OpenAI
 from langchain_community.llms import Ollama
 
 llm =  Ollama(model="phi3", temperature=0)
